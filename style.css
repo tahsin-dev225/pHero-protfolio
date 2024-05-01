@@ -142,3 +142,11 @@ nav a{
 .resume-column{
     width:35%;
 }
+.btnn{
+    margin:0 auto;
+}
+
+.bt{
+    display:flex;
+    margin-top: 40px;
+}
