@@ -3,6 +3,9 @@ body{
     font-family:'Open Sans',sans-serif;
 }
 
+main section{
+    margin-top:80px;
+}
 nav{
     display:flex;
     justify-content: space-between;
@@ -72,6 +75,7 @@ nav a{
     width:500px;
 }
 .about{
+    
     width:70%;
     padding:130px;
     background-color:#fff8f3 ;
@@ -90,6 +94,7 @@ nav a{
     color:#757575;
     text-align:center;
     font-size: 18px;
+    
 }
 .about-info-conteiner{
     
@@ -98,4 +103,32 @@ nav a{
 }
 .about-info{
     text-align: center;
+}
+.section-decription{
+    text-align: center;
+    margin:0 auto;
+    padding:0px 310px 30px 310px;
+}
+.skills-container{
+    display:flex;
+    gap:30px;
+    justify-content: space-around;
+}
+.skill{
+    padding:30px;
+    border:1px solid rgb(234, 234, 234);
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.06);
+}
+.skill-description{
+    padding: 15px;
+}
+
+
+
+.resume-column-title{
+   color:#474747;
+   font-size: 30px;
+   font-weight: 700px; 
 }
