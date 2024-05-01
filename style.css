@@ -7,6 +7,7 @@ nav{
     display:flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 }
 .primary-color{
     color:#fd6e0a;
@@ -39,4 +40,16 @@ nav li{
 }
 nav a{
     text-decoration: none;
+}
+header {
+    background-color:#fff8f3;
+}
+.banner{
+    padding:30px 30px 30px 150px;
+    display:flex;
+    align-items: center;
+}
+.banner .hardy{
+    width:500px;
+    height:650px;
 }
