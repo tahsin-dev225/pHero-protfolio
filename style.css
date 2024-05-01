@@ -132,3 +132,13 @@ nav a{
    font-size: 30px;
    font-weight: 700px; 
 }
+.resume-container{
+    display: flex;
+    justify-content:center;
+    gap:40px;
+}
+
+
+.resume-column{
+    width:35%;
+}
