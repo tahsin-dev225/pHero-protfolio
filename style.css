@@ -22,7 +22,7 @@ nav{
     color:white;
     font-size:20px;
     font-weight:700px;
-    padding:15px 35px;
+    padding:15px 35px 15px 35px;
 }
 .nav-title{
     color:#181818;
@@ -149,4 +149,43 @@ nav a{
 .bt{
     display:flex;
     margin-top: 40px;
+    margin-bottom: 40px;
+}
+fotter{
+    padding:60px;
+    width:70%;
+    display:flex;
+    justify-content: center;
+    gap:40px;
+    background-color: #fff8f3;
+    margin:0 auto;
+}
+.massage{
+    width:80%;
+    height:70px;
+    padding:0px 0px 10px 30px;
+    background-color: white;
+    border:1px solid rgb(221, 221, 221);
+    margin-bottom: 25px;
+}
+.massages{
+    width:80%;
+    height:110px;
+    background-color: white;
+    padding:0px 0px 60px 30px;
+    border:1px solid rgb(221, 221, 221);
+    margin-bottom: 25px;
+}
+.fotter-column{
+    width:35%;
+    gap:40px;
+    background-color: #fff8f3;
+}
+.section-t{
+    color:#181818;
+    font-size:35px;
+    font-weight:700px;
+}
+.fotter-bottom-margin{
+    margin-bottom: 40px;
 }
