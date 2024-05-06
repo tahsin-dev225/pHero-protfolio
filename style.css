@@ -195,7 +195,7 @@ fotter{
 
 @media  screen and (max-width:576px) {
     .section-decription{
-        padding:0;
+        padding:0px 5px;
     }
     .skill-description{
         padding: 0px;
@@ -219,7 +219,7 @@ fotter{
     }
     .about{
         width:90%;
-        padding:15px;
+        padding:0px;
     }
     .about-info-conteiner{
         display: grid;
@@ -270,7 +270,8 @@ fotter{
         margin-right: 20px;
     }
     .banner img{
-        width:95%;
+        width:50%;
+        height: 70%;
     }
 }
 
