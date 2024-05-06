@@ -21,13 +21,13 @@ nav{
     border:0px;
     color:white;
     font-size:20px;
-    font-weight:700px;
+    
     padding:15px 35px 15px 35px;
 }
 .nav-title{
     color:#181818;
     font-size:45px;
-    font-weight:800px;
+    
 }
 .nav-title span{
     color:#fd6e0a;
@@ -45,6 +45,7 @@ nav a{
     text-decoration: none;
 }
 .header {
+    width:100%;
     background-color:#fff8f3;
     background-image:url('img/header_bg.png'), url('img/developer.png');
     background-repeat: no-repeat;
@@ -68,11 +69,10 @@ nav a{
 }
 .banner-title{
     font-size:85px;
-    font-weight:700px;
     margin-top: 5px;
 }
 .banner-content p{
-    width:500px;
+    width:90%;
 }
 .about{
     
@@ -111,11 +111,11 @@ nav a{
 }
 .skills-container{
     display:flex;
-    gap:30px;
-    justify-content: space-around;
+    gap:20px;
+    justify-content: center;
 }
 .skill{
-    padding:30px;
+    padding:20px;
     border:1px solid rgb(234, 234, 234);
     border-radius: 5px;
     background: white;
@@ -189,3 +189,115 @@ fotter{
 .fotter-bottom-margin{
     margin-bottom: 40px;
 }
+.hide{
+    display:none;
+}
+
+@media  screen and (max-width:576px) {
+    .section-decription{
+        padding:0;
+    }
+    .skill-description{
+        padding: 0px;
+    }
+    .skills-container{
+        flex-direction: column;
+    }
+    .skill{
+        padding:30px;
+    }
+    .skill-description{
+        padding:5px 10px;
+    }
+    .resume-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .resume-column{
+        width:90%;
+        
+    }
+    .about{
+        width:90%;
+        padding:15px;
+    }
+    .about-info-conteiner{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    fotter{
+        padding:10px;
+        width:90%;
+        flex-direction: column;
+        justify-content: center;
+        gap:15px;
+    }
+    .fotter-column{
+        width:95%;
+        gap:40px;
+        background-color: #fff8f3;
+    }
+    .fotter-bottom-margin{
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+    .banner{
+        flex-direction: column;
+        padding: 0;
+    }
+    .nav-title{
+        margin:0px;
+    }
+    nav{
+        margin:0;
+        flex-direction: column;
+    }
+    .header{
+        background-image: none;
+    }
+    nav ul{
+        margin:5px 0;
+        padding: 0;
+    }
+    .banner-title{
+        width:99%;
+    }
+    .banner-content p{
+        
+    }
+    nav li{
+        margin-right: 20px;
+    }
+    .banner img{
+        width:95%;
+    }
+}
+
+
+
+@media  screen and (min-width:576px) and (max-width:992px){
+    .skills-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .section-decription{
+        padding:5px;
+    }
+    .resume-column{
+        width:45%;
+    }
+    .about{
+        width:85%;
+        padding:30px;
+    }
+    fotter{
+        padding:0px;
+        width:95%;
+        gap:15px;
+    }
+    .fotter-column{
+        width:45%;
+        gap:20px;
+    }
+} 
